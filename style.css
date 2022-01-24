@@ -48,22 +48,42 @@ footer p {
     position: relative;
 }
 
-.input {
+#note-input {
     background-color: rgb(183, 192, 245);
     border: none;
     margin: 10px;
     padding: 5px;
     font-size: 17px;
     border-style: none;
-}
 
-textarea {
     border: none;
     overflow: auto;
     outline: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+
+    color: rgb(21, 142, 223);
+}
+
+#title-input {
+    background-color: rgb(183, 192, 245);
+    border: none;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-style: none;
+    display: flex;
+    float: left;
+    margin-left:9% ;
+
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    color: #be1510;
 }
 
 #create-note{
@@ -71,7 +91,7 @@ textarea {
     line-height: 0.3;
     text-align:center;
     right: 15px;
-    bottom: 12px;
+    bottom: -30px;
     background-color: #c2e209;
     font-size: 48px;
     border-radius: 50%;
@@ -107,11 +127,10 @@ textarea {
     position: relative;
 }
 
-
-
 .note h1 {
     font-size: 1.1em;
     margin-bottom: 6px;
+    color: #be1510;;
 }
 
 .note p {
@@ -119,5 +138,7 @@ textarea {
     margin-bottom: 10px;
     white-space: pre-wrap;
     word-wrap: break-word;
+
+    color:  rgb(21, 142, 223);
 }
   
