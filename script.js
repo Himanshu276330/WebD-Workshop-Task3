@@ -1,19 +1,29 @@
 //Sample notes
-var note1 = {
-    title:"sample title",
-    content:"sample content"
-}
-var note2 = {
-    id:1,
-    title:"sample title 2",
-    content:"sample content 2"
-}
+var note1 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note2 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note3 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note4 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note5 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note6 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note7 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note8 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note9 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note10 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note10 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note11 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note12 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note13 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note14 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+var note15 = { title:"sample title",content:"Jai WebD👌👌👌👌👌"}
+
 var arr = [];
-arr.push(note1);
-arr.push(note2);
+arr.push(note1);arr.push(note2);arr.push(note3);arr.push(note4);arr.push(note5);
+arr.push(note6);arr.push(note7);arr.push(note8);arr.push(note9);arr.push(note10);
+arr.push(note11);arr.push(note12);arr.push(note13);arr.push(note14);arr.push(note15);
+
+// ----------------------------------------------Jai WebD---------------------------------------------------------------------------
 
 var ins = document.getElementById("insert");
-
 var id_arr = [0,1];
 
 for(var i=0;i<arr.length;i++){
